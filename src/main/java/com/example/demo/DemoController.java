@@ -23,10 +23,10 @@ public class DemoController {
         return employeeService.listOfEmployees();
     }
 
-//    @GetMapping("/greetings")
-//    public String greetings() {
-//        return "Hello World!";
-//    }
+    @GetMapping("/greetings")
+    public String greetings() {
+        return "Hello World!";
+    }
 
     @GetMapping("/hello")
     public String hello() {
