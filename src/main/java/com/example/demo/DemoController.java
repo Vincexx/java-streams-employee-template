@@ -13,7 +13,6 @@ import com.example.demo.service.EmployeeService;
 import lombok.AllArgsConstructor;
 
 @RestController
-@RequestMapping("/api")
 @AllArgsConstructor
 public class DemoController {
 
