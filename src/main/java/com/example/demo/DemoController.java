@@ -23,10 +23,10 @@ public class DemoController {
         return employeeService.listOfEmployees();
     }
 
-    @GetMapping("/hello")
-    public String greetings() {
-        return "Hello from Swagger!";
-    }
+//    @GetMapping("/hello")
+//    public String greetings() {
+//        return "Hello from Swagger!";
+//    }
 
 
 }
