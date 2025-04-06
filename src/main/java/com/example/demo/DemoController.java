@@ -18,19 +18,14 @@ public class DemoController {
 
     private final EmployeeService employeeService;
 
+    @GetMapping("/elastic-container-service")
+    public String greetings() throws ParseException {
+        return "Hello from AWS ECS!";
+    }
+
     @GetMapping("/employees")
     public List<Employee> getAllEmployees() throws ParseException {
         return employeeService.listOfEmployees();
-    }
-
-    @GetMapping("/greetings")
-    public String greetings() {
-        return "Hello World!";
-    }
-
-    @GetMapping("/hello")
-    public String hello() {
-        return "Hello World!";
     }
 
 
